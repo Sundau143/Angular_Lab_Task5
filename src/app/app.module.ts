@@ -1,38 +1,48 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FormsModule } from '@angular/forms';
-import { BuiltInPipesComponent } from './built-in-pipes/built-in-pipes.component';
-import { TemplatesComponent } from './templates/templates.component';
-import { ParentComponent } from './parent/parent.component';
-import { ChildComponent } from './child/child.component';
-import { ChildContainerComponent } from './child-container/child-container.component';
-import { ParentContainerComponent } from './parent-container/parent-container.component';
-import { NgTemplateExampleComponent } from './ng-template-example/ng-template-example.component';
-import { ViewChildExampleComponent } from './view-child-example/view-child-example.component';
-import { CustomPipeComponent } from './custom-pipe/custom-pipe.component';
-import { PointToComaPipe } from './custom-pipe/space-to-underline.pipe';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NavbarComponent } from './navbar/navbar.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
+import { CardsComponent } from './cards/cards.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AccordionComponent } from './accordion/accordion.component';
+import { TableComponent } from './table/table.component';
+import { TimepickerComponent } from './timepicker/timepicker.component';
+import { DatepickerComponent } from './datepicker/datepicker.component';
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { OrdersComponent } from './orders/orders.component';
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
+import { WeatherComponent } from './weather/weather.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    BuiltInPipesComponent,
-    TemplatesComponent,
-    ParentComponent,
-    ChildComponent,
-    ChildContainerComponent,
-    ParentContainerComponent,
-    NgTemplateExampleComponent,
-    ViewChildExampleComponent,
-    CustomPipeComponent,
-    PointToComaPipe,
+    NavbarComponent,
+    routingComponents,
+    ProgressBarComponent,
+    CardsComponent,
+    AccordionComponent,
+    TableComponent,
+    TimepickerComponent,
+    DatepickerComponent,
+    ReactiveFormComponent,
+    OrdersComponent,
+    WeatherComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    NgbModule,
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+    NgxDatatableModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
