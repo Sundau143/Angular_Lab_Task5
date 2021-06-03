@@ -1,0 +1,33 @@
+{
+    "global": {
+        "history": "History",
+        "language": "Language",
+        "name": "Lab Task #5"
+    },
+    "history": {
+        "title": "Zaporizhzhia Automobile Building Plant",
+        "description": "The date of foundation of the plant is considered to be 1863. In 1908, the company was founded, which later became the Melitopol Motor Plant (MeMZ). In 1923, the former Abraham Coop plant was renamed the Communar. In 1960, the Melitopol Motor Plant began to supply its engines to the Zaporozhye Automobile Plant. Since 1975, MeMZ has become a part of the production association 'AvtoZAZ'. Today it is one of the structural elements of PJSC 'ZAZ'. In 1961 the plant was renamed 'Zaporizhzhya Automobile Plant'. The plant was engaged in the production of a single car - ZAZ-965, which went down in history as a 'humpbacked Zaporozhets'. JV 'AvtoZAZ-DEU' (since January 2003 - CJSC 'ZAZ') in the form of a closed joint stock company was established on April 15, 1998 on the production base of JSC 'Avtozaz'. The authorized capital was formed at the expense of the founders' contributions: from OJSC Avtozaz - property in the amount equivalent to $150; from Daewoo Motors - $150 million. In addition to the main enterprise in Zaporizhia, the joint venture also included the Melitopol Motor Plant (Fracturing Plant AvtoZAZ-Motor), the Black Sea Plant of Automobile Units (Fracturing Plant ChZAA), and the Pologi Plant Iskra (Fracturing Plant Iskra) as self-supporting enterprises. Following the bankruptcy of Daewoo Motors in 2001, UkrAvto bought AvtoZAZ in 2002. All production facilities of AvtoZAZ (primarily MeMZ and the Black Sea Motor Plant) were transformed into ZAZ. The company has even adopted a new logo. Daewoo's stake (50%) in the joint venture was bought by the Swiss company Hirsch & CIE in 2003. PJSC 'ZAZ' is now the only company in Ukraine that has a full cycle of passenger car production, which includes stamping, welding, painting, body equipment and car assembly. The plant has created and is constantly improving a qualitatively new modern high-tech production that meets the requirements of the international standard ISO 9001 version 2000."
+    },
+    "car-group-one": {
+        "title-first": "ZAZ 965",
+        "title-second": "ZAZ 966",
+        "title-third": "ZAZ 968",
+        "first-desc": "ZAZ-965 'Zaporozhets' is a Soviet minicar produced from 1960 to 1963. ZAZ-965A 'Zaporozhets' - modification with a 27 hp engine. pp., produced from November 1962 to 1969. A total of 322,166 cars of all modifications were produced.",
+        "second-desc": "ZAZ-966 'Zaporozhets' is a Soviet car of an especially small class. Produced at the Kommunar automobile plant in the city of Zaporozhye from 1966 to 1972 with modifications.",
+        "third-desc": "ZAZ-968 'Zaporozhets' is a Soviet car of the 1st group of a small class, produced by the Zaporozhye Automobile Plant. The ZAZ-968 car replaced the ZAZ-966 model and in many ways repeated it. Produced from 1971 to 1979."
+    },
+    "car-group-two": {
+        "title-first": "ZAZ 1102",
+        "title-second": "ZAZ 1103",
+        "title-third": "ZAZ 11055",
+        "first-desc": "ZAZ-1102 'Tavria' is a Soviet and Ukrainian car of the II group of an especially small class with a hatchback type body, the first front-wheel drive passenger car of the Zaporozhye Automobile Plant. It is the successor to the ZAZ-968 model. It was serially produced at the Zaporozhye Automobile Plant from 1987 to 2007, and models on its platform were produced until the beginning of 2011.",
+        "second-desc": "ZAZ-1103 'Slavuta' (ZAZ-1103 Slavuta) is a passenger front-wheel drive B-class car with a liftback body. It is the 'successor' of the ZAZ-968 model. Produced at the Zaporozhye Automobile Building Plant from 1999 to 2011.",
+        "third-desc": "ZAZ-110550 'Pick-Up' is a commercial distribution modification of the basic model of the passenger front-wheel drive vehicle ZAZ-1105 'Dana'. On request, the cargo platform could be equipped with a soft or hard plastic top, which actually turned the car into a van with a useful cargo compartment volume of up to 2.5 m³. The driver's cab is separated from the loading platform by a stationary partition with glass."
+    },
+    "car-group-three": {
+        "title-first": "ZAZ Forza",
+        "title-second": "ZAZ Vida",
+        "first-desc": "ZAZ Forza is a compact B-class car, which was produced at the Ukrainian enterprise AvtoZAZ from 2011 to 2014. In January 2011, the Zaporozhye Automobile Building Plant began production of a pilot batch of ZAZ Forza at the main building. Conveyor capacity - 8 vehicles per hour. In preparation for the production of the ZAZ Forza model, the assembly line was modernized.",
+        "second-desc": "ZAZ Vida is a front-wheel drive passenger car with a sedan and a hatchback of the Zaporozhye Automobile Building Plant. Serial production of ZAZ Vida sedan began in early 2012. On March 13, 2012, sales of the car began in car dealerships in Ukraine. On May 23-27, 2012, at the international Kiev motor show SIA'2012, a new model was presented for the first time - ZAZ Vida in the back of a hatchback. In December 2016, the production of the ZAZ Vida Cargo pickup started."
+    }
+}

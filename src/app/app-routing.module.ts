@@ -1,29 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AccordionComponent } from './accordion/accordion.component';
-import { CardsComponent } from './cards/cards.component';
-import { DatepickerComponent } from './datepicker/datepicker.component';
-import { OrdersComponent } from './orders/orders.component';
-import { ProgressBarComponent } from './progress-bar/progress-bar.component';
-import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
-import { SlideShowComponent } from './slide-show/slide-show.component';
-import { TableComponent } from './table/table.component';
-import { TimepickerComponent } from './timepicker/timepicker.component';
-import { WeatherComponent } from './weather/weather.component';
+import { FirstCarGroupComponent } from './first-car-group/first-car-group.component';
+import { HistoryComponent } from './history/history.component';
+import { SecondCarGroupComponent } from './second-car-group/second-car-group.component';
+import { ThirdCarGroupComponent } from './third-car-group/third-car-group.component';
 
 
 const routes: Routes = [
-  { path: 'slide-show', component: SlideShowComponent },
-  { path: 'progress-bar', component: ProgressBarComponent },
-  { path: 'cards', component: CardsComponent },
-  { path: 'accordion', component: AccordionComponent },
-  { path: 'table', component: TableComponent },
-  { path: 'timepicker', component: TimepickerComponent },
-  { path: 'datepicker', component: DatepickerComponent},
-  { path: 'form', component: ReactiveFormComponent },
-  { path: 'datatable', component: OrdersComponent },
-  { path: 'weather', component: WeatherComponent }
-
+  { path: 'history', component:  HistoryComponent},
+  { path: '1960s-1990s', component: FirstCarGroupComponent },
+  { path: '1990s-2010s', component: SecondCarGroupComponent},
+  { path: '2010s-2020s', component: ThirdCarGroupComponent }
 ];
 
 @NgModule({
@@ -32,4 +19,4 @@ const routes: Routes = [
 })
 
 export class AppRoutingModule { }
-export const routingComponents = [SlideShowComponent, ProgressBarComponent, TableComponent];
+export const routingComponents = [];
